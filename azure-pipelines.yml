@@ -49,6 +49,7 @@ steps:
   displayName: 'Copy build results to gh-pages branch'
 
 - script: |
+    rm .gitignore
     git add --all .
     git commit -m 'Update website'
     git push origin gh-pages
