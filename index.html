@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Git Fundamentals</title>
+
+	<meta name="description" content="Material for Git Fundamentals Course">
+	<meta name="author" content="Rainer Stropek">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+	<style>
+		.reveal {
+			font-size: 24px;
+		}
+
+		section>ul>li {
+			margin-top: 15px;
+		}
+
+		section>ul>li:first-of-type {
+			margin-top: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="hidden" style="display:none;">
+		<div id="header">
+			<div id="header-left">Programming with C#</div>
+			<div id="header-right"><img src="images/htl-logo.svg" class="logo" /></div>
+			<div id="footer-left">2019/20, Rainer Stropek</div>
+		</div>
+	</div>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<h1>Git Fundamentals</h1>
+				<h3>Material for Git Fundamentals Course</h3>
+				<p>
+					<small>Created by <a href="http://rainerstropek.me/">Rainer Stropek</a> / <a href="http://twitter.com/rstropek">@rstropek</a></small>
+				</p>
+			</section>
+
+			<section data-markdown="intro.md"   
+				data-separator="^\n\n\n"  
+				data-separator-vertical="^\n\n"  
+				data-separator-notes="^Note:"  
+				data-charset="iso-8859-15">
+			</section>
+
+
+		</div>
+
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+		});
+	</script>
+
+</body>
+
+</html>
