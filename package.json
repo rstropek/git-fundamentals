@@ -1,0 +1,32 @@
+{
+  "name": "git-fundamentals",
+  "version": "0.1.0",
+  "description": "Material for Git fundamentals course",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-ssi": "^0.1.5",
+    "jquery": "^3.5.1",
+    "reveal.js": "^4.0.2",
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp clean && gulp",
+    "watch": "gulp clean && gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstropek/git-fundamentals.git"
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstropek/git-fundamentals/issues"
+  },
+  "homepage": "https://github.com/rstropek/git-fundamentals#readme"
+}
