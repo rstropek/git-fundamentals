@@ -26,13 +26,17 @@ function copyHtml() {
 }
 
 function copyMarkdown(cb) {
-  return src(['content/**/*'])
+  return src(['content/**/*.md'])
     .pipe(ssi())
     .pipe(lec())
     .pipe(dest('dist'));
 }
 
-const defaultTasks = series(parallel(copyHtml, copyMarkdown), copyReveal);
+function copyImages(cb) {
+  return src(['content/**/*.png']).pipe(dest('dist'));
+}
+
+const defaultTasks = series(parallel(copyHtml, copyImages, copyMarkdown), copyReveal);
 
 exports.clean = clean;
 exports.default = defaultTasks;

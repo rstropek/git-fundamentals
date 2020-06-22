@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 976px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+.quote {
+    background-color: lightpink;
+    border: 1px solid darkred;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 480px) {
+    .quote {
+        float: left;
+        width: 250px;
+        margin: 0 25px 10px 0;
+    }
+}

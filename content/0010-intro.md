@@ -14,7 +14,8 @@ Basic Principles of Git
   * Manage different versions of your code (*branches*)
 * Git support collaboration in a distributed team <!-- .element: class="fragment" -->
   * Store a copy of your code on remote servers
-  * Let multiple people contribute changes
+  * Everybody has a copy of the entire repository
+  * Let multiple people contribute changes easily
 
 
 ## GUI or CLI?
