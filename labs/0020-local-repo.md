@@ -4,7 +4,7 @@
 
 You are a web developer and you have to develop a new website from scratch. You want to use Git for version control.
 
-Note that the commands shown in this document assume that your current working directory is 
+This lab assumes that you have correctly set up your local environment as shown in the previous [*Setting up Your Git Environment* lab](0010-setup.md).
 
 ## Creating the Repository
 
