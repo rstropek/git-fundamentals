@@ -8,14 +8,14 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 
 ## Creating the Repository
 
-* Create a new, empty folder called *AcmeCorpWebsite*.
+* Create a new, empty folder called *TicTacToe*.
 * Open a command shell in the new folder.
 * Make the folder a Git repository: `git init`
 * Open folder in your favorite editor. Here we are going to use VSCode: `code .`
 
 ## Add TicTacToe Board
 
-* Simulate the creation of the first, draft version of the website by copying [*index.html*](0030-tags-stashing/010-game-board/index.html) into the created folder. It displays the TicTacToe board but does not contain any game logic yet.
+* Simulate the creation of the first, draft version of the game by copying [*index.html*](0030-tags-stashing/010-game-board/index.html) into the created folder. It displays the TicTacToe board but does not contain any game logic yet.
   * If you want, double-click on *index.html* to see the website.
 * Add and commit your changes. The commit message should be *Implement game board*.
 
