@@ -33,7 +33,7 @@ function copyMarkdown(cb) {
 }
 
 function copyImages(cb) {
-  return src(['content/**/*.png']).pipe(dest('dist'));
+  return src(['content/**/*.png', 'content/**/*.svg']).pipe(dest('dist'));
 }
 
 const defaultTasks = series(parallel(copyHtml, copyImages, copyMarkdown), copyReveal);
