@@ -15,7 +15,7 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 
 ## Add TicTacToe Board
 
-* Simulate the creation of the first, draft version of the game by copying [*index.html*](0050-branching/010-basic-game/index.html) into the created folder. It displays the TicTacToe board and adds basic game logic.
+* Simulate the creation of the first, draft version of the game by copying [*010-basic-game/index.html*](0050-branching/010-basic-game/index.html) into the created folder. It displays the TicTacToe board and adds basic game logic.
   * If you want, double-click on *index.html* to see the website.
 * Add and commit your changes. The commit message should be *Implement basic game*.
 
@@ -25,7 +25,7 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 * Create a new branch in which we are going to implement the new feature: `git branch feat/restart`
   * Verify that the branch has been created: `git branch`
 * Switch to the new branch: `git checkout feat/restart`
-* Simulate adding a *Restart* button by copying [*index.html*](0050-branching/020-restart-game/index.html) into the created folder.
+* Simulate adding a *Restart* button by copying [*020-restart-game/index.html*](0050-branching/020-restart-game/index.html) into the created folder.
   * If you want, double-click on *index.html* to see the website.
   * Use `git diff` to check the changes.
 * Add and commit your changes. The commit message should be *Add restart logic*.
@@ -37,7 +37,7 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 * Switch back to *master* branch: `git checkout master`
   * Look into *index.html* to make sure that restart logic is not present yet. It is only in the feature branch.
 * Create new branch and check it out in one statement: `git checkout -b fix/game-logic`
-* Simulate fixing the bug by copying [*index.html*](0050-branching/030-game-logic-bugfix/index.html) into the created folder.
+* Simulate fixing the bug by copying [*030-game-logic-bugfix/index.html*](0050-branching/030-game-logic-bugfix/index.html) into the created folder.
   * If you want, double-click on *index.html* to see the website.
   * Use `git diff` to check the changes.
 * Add and commit your changes. The commit message should be *Fixed bug in game-logic*.
