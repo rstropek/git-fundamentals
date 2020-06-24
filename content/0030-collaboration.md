@@ -5,12 +5,12 @@ Teamworking with Git
 
 ## Remotes
 
-* Versions of your project hosted on the Internet or network somewhere
+* Versions <!-- .element: class="fragment" --> of your project hosted on the Internet or network somewhere
   * Here: GitHub
-* 0..n remotes
+* 0..n <!-- .element: class="fragment" --> remotes
   * Some read-only, some read-write
-* Collaborate by pulling and pushing data to and from them
-* Credentials
+* Collaborate <!-- .element: class="fragment" --> by pulling and pushing data to and from them
+* Credentials <!-- .element: class="fragment" -->
   * Store credentials with [credential helpers](https://git-scm.com/docs/gitcredentials)
   * Check configured credential helper: `git config --global credential.helper`
   * Example: [GitHub on Windows](https://help.github.com/en/github/using-git/caching-your-github-password-in-git)
@@ -58,8 +58,7 @@ Teamworking with Git
 * Git <!-- .element: class="fragment" --> branches are lightweight
   * Branching operations are nearly instantaneous
   * Switching back and forth is generally fast
-
-> Branch <!-- .element: class="fragment" --> early, branch often
+* Branch <!-- .element: class="fragment" --> early, branch often
 
 
 ## Overview
@@ -77,14 +76,14 @@ Teamworking with Git
 * Simple workflow:
   * Create a branch for each feature
   * Create a branch for each bug fix
-  * Let the *master*/*main* branch be clean by not making it a *Work In Progress* (WIP)
+  * Let the *master* branch be clean by not making it a *Work In Progress* (WIP)
 
 
 ## Branching
 
 Git Flow ([Source](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow))
 
-![Git Flow](0030-collaboration/git-flow.svg)
+<img src="0030-collaboration/git-flow.svg" width="66%" alt="Git Flow" />
 
 
 ## Merging
@@ -115,7 +114,7 @@ git merge bugfix1
 
 ## Merge vs. Rebase <!-- .slide: data-transition="fade-in slide-out" -->
 
-![Git Rebase](0030-collaboration/git-merge.png)
+![Git Rebase](0030-collaboration/git-rebase.png)
 
 
 ## Merge Conflicts
@@ -135,6 +134,11 @@ git merge bugfix1
 </div>
 >>>>>>> iss53:index.html
 ```
+
+
+## Merge Conflict Resolution in VSCode
+
+![Merge Conflict Resolution in VSCode](0030-collaboration/vscode-merge-conflict.png)
 
 
 ## Exercises, Further Readings
