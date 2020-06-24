@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale Unit Converter</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        #result {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4">Scale Unit Converter</h1>
+                    <p class="lead">Converting between scale units.</p>
+                    <hr class="my-4">
+                    <p>This is a sample from the Git fundamental course to learn about pull requests and the GitHub
+                        Flow.</p>
+                    <a class="btn btn-primary btn-lg" href="https://guides.github.com/introduction/flow/"
+                        target="_blank" role="button">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="valueInput">Value</label>
+                        <input type="number" class="form-control" id="valueInput" aria-describedby="valueInputDesc" value="42">
+                        <small id="valueInputDesc" class="form-text text-muted">Enter the value you would like to
+                            convert.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="fromScaleUnit">Convert from</label>
+                        <select class="form-control" id="fromScaleUnit" aria-describedby="fromScaleUnitDesc"></select>
+                        <small id="fromScaleUnitDesc" class="form-text text-muted">Select the scale unit of the entered value.</small>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="toScaleUnit">Convert to</label>
+                        <select class="form-control" id="toScaleUnit" aria-describedby="toScaleUnitDesc"></select>
+                        <small id="toScaleUnitDesc" class="form-text text-muted">Select the target scale unit.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" id="convert" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <h1 id="result" />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
