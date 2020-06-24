@@ -15,13 +15,13 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 
 ## Add TicTacToe Board
 
-* Simulate the creation of the first, draft version of the game by copying [*index.html*](0030-tags-stashing/010-game-board/index.html) into the created folder. It displays the TicTacToe board but does not contain any game logic yet.
+* Simulate the creation of the first, draft version of the game by copying [*010-game-board/index.html*](0030-tags-stashing/010-game-board/index.html) into the created folder. It displays the TicTacToe board but does not contain any game logic yet.
   * If you want, double-click on *index.html* to see the website.
 * Add and commit your changes. The commit message should be *Implement game board*.
 
 ## Add TicTacToe Board
 
-* Simulate programming the game logic by copying [*index.html*](0030-tags-stashing/020-game-logic-v1/index.html) into the created folder.
+* Simulate programming the game logic by copying [*020-game-logic-v1/index.html*](0030-tags-stashing/020-game-logic-v1/index.html) into the created folder.
   * If you want, double-click on *index.html* to see the website.
   * Use `git diff` to check the changes.
 * Add and commit your changes. The commit message should be *Add game logic*.
@@ -32,7 +32,7 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 
 ## Add Restart Logic
 
-* Simulate adding a *Restart* button by copying [*index.html*](0030-tags-stashing/030-restart-game/index.html) into the created folder.
+* Simulate adding a *Restart* button by copying [*030-restart-game/index.html*](0030-tags-stashing/030-restart-game/index.html) into the created folder.
   * If you want, double-click on *index.html* to see the website.
   * Use `git diff` to check the changes.
 
@@ -43,7 +43,7 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 * Stash your work on the *Restart* button so that you can finish it later: `git stash push -m 'Restart logic'`
   * Check the status, it should be clean now.
   * See list of stashes: `git stash list`
-* Simulate fixing the bug by copying [*index.html*](0030-tags-stashing/040-game-logic-bugfix/index.html) into the created folder.
+* Simulate fixing the bug by copying [*040-game-logic-bugfix/index.html*](0030-tags-stashing/040-game-logic-bugfix/index.html) into the created folder.
   * If you want, double-click on *index.html* to see the website.
   * Use `git diff` to check the changes.
 * Add and commit your changes. The commit message should be *Fix bug in winner detection*.
