@@ -15,7 +15,7 @@ This lab assumes that you have correctly set up your local environment as shown 
 
 ## Add First Version of Website
 
-* Simulate the creation of the first, draft version of the website by copying [*index.html*](0020-local-repo/010-simple-content/index.html) into the created folder.
+* Simulate the creation of the first, draft version of the website by copying [*010-simple-content/index.html*](0020-local-repo/010-simple-content/index.html) into the created folder.
   * If you want, double-click on *index.html* to see the website.
 * Check the status of your Git repository: `git status`
 * Add the change (=creation of file) to the Git repository: `git add index.html`
@@ -27,7 +27,7 @@ This lab assumes that you have correctly set up your local environment as shown 
 
 ## Create a Styled Version of the Website
 
-* Simulate enhancing your website by copying [*index.html*](0020-local-repo/020-with-css/index.html) and [*index.css*](0020-local-repo/020-with-css/index.css) into your project folder.
+* Simulate enhancing your website by copying [*020-with-css/index.html*](0020-local-repo/020-with-css/index.html) and [*020-with-css/index.css*](0020-local-repo/020-with-css/index.css) into your project folder.
   * If you want, double-click on *index.html* to see the enhanced website.
 * Check the status of your Git repository
 * View the changes in *index.html*: `git diff index.html`
@@ -45,7 +45,7 @@ This lab assumes that you have correctly set up your local environment as shown 
 
 ## Move Styling Into HTML
 
-* You decided to get rid of the *.css* file and use *inline CSS* instead. Simulate doing that changes by removing *index.css* (`rd index.css`, on Windows `del index.css`) and copying [*index.html*](0020-local-repo/030-with-inline-styles/index.html).
+* You decided to get rid of the *.css* file and use *inline CSS* instead. Simulate doing that changes by removing *index.css* (`rd index.css`, on Windows `del index.css`) and copying [*030-with-inline-styles/index.html*](0020-local-repo/030-with-inline-styles/index.html).
   * If you want, double-click on *index.html* to check that the website still works.
 * Check the status of your Git repository
 * Add the changes (=one file changed, one deleted) to the Git repository: `git add --all .`
@@ -57,10 +57,10 @@ This lab assumes that you have correctly set up your local environment as shown 
 
 ## Amending Commits
 
-* Simulate switching to a blue design by copying [*index.html*](0020-local-repo/040-blue-background/index.html) into your project folder.
+* Simulate switching to a blue design by copying [*040-blue-background/index.html*](0020-local-repo/040-blue-background/index.html) into your project folder.
 * Check the status of your Git repository and view differences of *index.html* compared to last commit.
 * Add and commit the changes. The commit message should be *Switch to blue design*.
-* You realize that you forgot to change the border color to blue. Simulate fixing that by copying [*index.html*](0020-local-repo/050-blue/index.html) into your project folder.
+* You realize that you forgot to change the border color to blue. Simulate fixing that by copying [*050-blue/index.html*](0020-local-repo/050-blue/index.html) into your project folder.
 * Add the change to your repository.
 * Change previous commit by using the `--amend` switch: `git commit --amend --no-edit`
   
