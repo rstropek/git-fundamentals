@@ -60,7 +60,7 @@ Basic Principles of Git
 
 * Reasons: Free, very widely used
   * Make sure you have a GitHub account
-  * If you don't have on already, [please join](https://github.com/join) now
+  * If you don't have one already, [please join](https://github.com/join) now
   * Note: You can [keep your email address private](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) if you want
 
 
