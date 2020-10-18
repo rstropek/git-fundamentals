@@ -69,7 +69,7 @@ git cl https://github.com/rstropek/git-fundamentals.git
 * Displays <!-- .element: class="fragment" --> paths/files that have differences (created, modified, deleted)
 * Use <!-- .element: class="fragment" --> `--short` flag to get a compact overview
 * Consider <!-- .element: class="fragment" --> using a GUI tool to explore status of repository
-  * E.g. *Source Control* secition in VSCode
+  * E.g. *Source Control* section in VSCode
 
 ![Source Control in VSCode](0020-basic-commands/vscode-source-control.png) <!-- .element: class="fragment" -->
 
