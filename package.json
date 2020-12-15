@@ -11,7 +11,7 @@
     "gulp-line-ending-corrector": "^1.0.3",
     "gulp-ssi": "^0.1.5",
     "jquery": "^3.5.1",
-    "reveal.js": "^4.0.2",
+    "reveal.js": "^4.1.0",
     "serve": "^11.3.2"
   },
   "scripts": {
