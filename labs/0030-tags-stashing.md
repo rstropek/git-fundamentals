@@ -59,3 +59,7 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 * This will become our version 2.0. Therefore, add a tag: `git tag -a v2.0 -m 'V2 with restart logic'`
   * See list of tags: `git tag`
   * See tags noted in log: `git log`
+
+## Tips for Further Exercises
+
+* If you plan to use a Git GUI tool in practice, repeat the exercise with your tool of choice.

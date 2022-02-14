@@ -109,6 +109,16 @@ git cl https://github.com/rstropek/git-fundamentals.git
 * Commit <!-- .element: class="fragment" --> with message: `git commit -m 'Add styles'`
 * Commit <!-- .element: class="fragment" --> all changes without having to separately call `add` and/or `rm`: `git commit -a -m '...'`
 * Amend <!-- .element: class="fragment" --> (=replace) last commit: `git commit --amend -m '...'`
+* Good <!-- .element: class="fragment" --> practices for [commit messages](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
+
+
+## *HEAD*
+
+* Typically <!-- .element: class="fragment" --> references to the *current* or *active* branch
+* Can <!-- .element: class="fragment" --> be *deteched* (i.e. referencing a specific commit, not a branch)
+* Referencing <!-- .element: class="fragment" --> relative to *HEAD*
+  * `HEAD~` means the first parent of the tip of the current branch (or commit in case of detached *HEAD*)
+  * You can go back multiple steps (e.g. `HEAD~~` or `HEAD~2`)
 
 
 ## `git revert` ([ref](https://git-scm.com/docs/git-revert)) and `git reset` ([ref](https://git-scm.com/docs/git-reset))

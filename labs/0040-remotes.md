@@ -25,7 +25,7 @@ To get started for this lab, create your own GitHub repository with starter code
 * Clone the repository from GitHub: `git clone https://github.com/.../git-fundamentals-hugo-website-....git`
   * As a result, you will have the starter code in a subfolder named *git-fundamentals-hugo-website-...*.
 
-If you installed *Hugo* you can try the website. Navigate into the cloned folder and run `hugo server`. Open a browser and navigate to *http://localhost:1313/*. You should now see the website.
+If you installed *Hugo* you can try the website. Navigate into the cloned folder and run `hugo serve`. Open a browser and navigate to [*http://localhost:1313/*](http://localhost:1313/). You should now see the website.
 
 ## Explore Remotes
 
@@ -46,7 +46,7 @@ If you installed *Hugo* you can try the website. Navigate into the cloned folder
 * Select MIT license
   ![Select MIT License](0040-remotes/github-mit-license.png)
 
-* Add and commit license file *directly to master branch*. The commit message should be *Create LICENSE*.
+* Add and commit license file *directly to main branch*. The commit message should be *Create LICENSE*.
 
 ### Refreshing Local Repository
 
@@ -67,12 +67,12 @@ If you installed *Hugo* you can try the website. Navigate into the cloned folder
   
   # Space Shooter mit JavaScript
   
-  ...
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
   ```
 
 * Add and commit your changes. The commit message should be *Add JavaScript exercise*.
 * Take a look at the log and note that local HEAD is ahead of origin's HEAD: `git log`
-* Push local changes to GitHub: `git push origin master`
+* Push local changes to GitHub: `git push origin main`
   * Verify that new exercise is on GitHub
 
 ## Adding Remotes
@@ -85,5 +85,5 @@ If you installed *Hugo* you can try the website. Navigate into the cloned folder
   * Check the status of your repository to verify that Jane's exercise was created
   * Verify content of exercise: `cat content/uebungsbeispiele/scratch/off-to-be-a-wizard.md` (on Windows use `type`)
 * Add and commit your changes. The commit message should be *Add wizard game*.
-* Push local changes to GitHub: `git push origin master`
+* Push local changes to GitHub: `git push origin main`
   * Verify that new exercise is on GitHub
