@@ -1,0 +1,34 @@
+name: Build and publish slides
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: 🚚 Checkout
+
+      - uses: actions/setup-node@v2
+        name: 🔧 Setup Node
+        with:
+          node-version: '16'
+
+      - name: 📦 NPM Install
+        run: |
+          npm install
+
+      - name: 👷‍♂️ Build
+        run: |
+          npm install
+          npm run build
+
+      - name: 🚀 Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
