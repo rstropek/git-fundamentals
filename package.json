@@ -3,16 +3,15 @@
   "version": "0.1.0",
   "description": "Material for Git fundamentals course",
   "main": "index.html",
-  "dependencies": {},
   "devDependencies": {
-    "concurrently": "^6.0.0",
+    "concurrently": "^7.0.0",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-line-ending-corrector": "^1.0.3",
     "gulp-ssi": "^0.1.5",
     "jquery": "^3.6.0",
     "reveal.js": "^4.1.0",
-    "serve": "^11.3.2"
+    "serve": "^13.0.2"
   },
   "scripts": {
     "clean": "gulp clean",
