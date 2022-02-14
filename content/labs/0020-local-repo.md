@@ -69,3 +69,7 @@ This lab assumes that you have correctly set up your local environment as shown 
 * It turns out that you do not like the blue design, you would like to switch back to red.
 * Add a new commit undoing previous one: `git revert HEAD`
 * Check version history log.
+
+## Tips for Further Exercises
+
+* If you plan to use a Git GUI tool in practice, repeat the exercise with your tool of choice.

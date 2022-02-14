@@ -66,7 +66,7 @@ To get started for this lab, create your own GitHub repository with starter code
 
 * Go to *Pull Requests* in your repository.
 * Inspect and merge the pull request.
-* If you want, try code view features of GitHub.
+* If you want, try code review features of GitHub.
 
 ![Merge pull request](0060-github-flow/merge-pull-request.png)
 

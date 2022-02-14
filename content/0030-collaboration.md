@@ -76,7 +76,7 @@ Teamworking with Git
 * Simple workflow:
   * Create a branch for each feature
   * Create a branch for each bug fix
-  * Let the *master* branch be clean by not making it a *Work In Progress* (WIP)
+  * Let the *main* branch be clean by not making it a *Work In Progress* (WIP)
 
 
 ## Branching
@@ -93,15 +93,15 @@ Git Flow ([Source](https://www.atlassian.com/git/tutorials/comparing-workflows/g
 ```bash
 git checkout -b feat1
 git commit
-git checkout master
+git checkout main
 git merge feat1
 
 git checkout -b feat2
 git commit
-git checkout master
+git checkout main
 git checkout -b bugfix1
 git commit
-git checkout master
+git checkout main
 git merge feat2
 git merge bugfix1
 ```

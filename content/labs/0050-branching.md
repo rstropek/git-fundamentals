@@ -49,4 +49,3 @@ This lab assumes that you are already familiar with basic Git commands as shown 
 * Merge changes from feature-branch: `git merge feat/restart`
   * If you want, double-click on *index.html* to see the website.
 * View branch structure: `git log --graph --decorate --oneline --all`
- 
