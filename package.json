@@ -10,7 +10,7 @@
     "gulp-line-ending-corrector": "^1.0.3",
     "gulp-ssi": "^0.1.5",
     "jquery": "^3.6.0",
-    "reveal.js": "^4.1.0",
+    "reveal.js": "^4.3.0",
     "serve": "^13.0.2"
   },
   "scripts": {
