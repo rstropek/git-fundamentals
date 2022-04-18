@@ -109,7 +109,7 @@ git cl https://github.com/rstropek/git-fundamentals.git
 * Commit <!-- .element: class="fragment" --> with message: `git commit -m 'Add styles'`
 * Commit <!-- .element: class="fragment" --> all changes without having to separately call `add` and/or `rm`: `git commit -a -m '...'`
 * Amend <!-- .element: class="fragment" --> (=replace) last commit: `git commit --amend -m '...'`
-* Good <!-- .element: class="fragment" --> practices for [commit messages](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
+* Good <!-- .element: class="fragment" --> practices for [commit messages](https://www.conventionalcommits.org/en/v1.0.0/)
 
 
 ## *HEAD*
